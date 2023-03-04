@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"name":"peter","created_at":"0001-01-01T00:00:00Z", "todos": null}' \
+  http://localhost:3000/todolist
